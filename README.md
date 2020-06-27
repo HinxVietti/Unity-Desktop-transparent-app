@@ -6,11 +6,11 @@
 
 ```flow
 st=>start: START
-op=>operation: UNITY RENDER
-op=>CLEAR BACKGROUND
-op=>NOTIFY WIN-32 CLEAR WINDOW
-cond=>condition: Yes or No?
+op_1=>operation: UNITY RENDER
+op_2=>CLEAR BACKGROUND
+op_3=>NOTIFY WIN-32 CLEAR WINDOW
 e=>Blingbling
+st->op_1->op_2->op_3->e
 &```
 
 ## 使用
