@@ -5,6 +5,16 @@
 ## 原理 流程图
 
 ```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
+
+```flow
 st=>start: START
 op_1=>operation: UNITY RENDER
 op_2=>CLEAR BACKGROUND
