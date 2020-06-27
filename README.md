@@ -16,6 +16,8 @@
 ## 看看效果
 
 * build and run
+![avatar](Images/sc.png)
+
 
 ## 原理 流程图
 
