@@ -1,27 +1,6 @@
 # Unity-Desktop-transparent-app
 使用Unity，渲染内容，然后抠图出来，然后再播放到桌面的酷炫功能
-> 原文来自知乎，[（传送门）](http://www.baidu.com "传送到知乎")
-
-## 原理 流程图
-
-```flow
-st=>start: 开始
-op=>operation: My Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
-&```
-
-```flow
-st=>start: START
-op_1=>operation: UNITY RENDER
-op_2=>CLEAR BACKGROUND
-op_3=>NOTIFY WIN-32 CLEAR WINDOW
-e=>Blingbling
-st->op_1->op_2->op_3->e
-&```
+> 原文来自知乎，[传送门](http://www.baidu.com "传送到知乎")
 
 ## 使用
 * 直接Clone ，然后打开Unity
@@ -35,3 +14,20 @@ st->op_1->op_2->op_3->e
 * 这个只是基础Demo,要功能自己改就好啦
 
 ## 看看效果
+
+* build and run
+
+## 原理 流程图
+
+```flow
+
+​```flow
+st=>start: START
+op_1=>operation: UNITY RENDER
+op_2=>operation: CLEAR BACKGROUND
+op_3=>operation: NOTIFY WIN-32 CLEAR WINDOW
+e=>end
+st->op_1->op_2->op_3->e->
+&```
+
+```
