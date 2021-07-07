@@ -23,13 +23,12 @@
 
 ```flow
 
-​```flow
 st=>start: START
 op_1=>operation: UNITY RENDER
 op_2=>operation: CLEAR BACKGROUND
 op_3=>operation: NOTIFY WIN-32 CLEAR WINDOW
 e=>end: 结束
 st->op_1->op_2->op_3->e
-&```
+&
 
 ```
